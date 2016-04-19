@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingPivotUserControl", "TestingPivotUserControl\TestingPivotUserControl.csproj", "{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|ARM.Build.0 = Debug|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x64.ActiveCfg = Debug|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x64.Build.0 = Debug|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x64.Deploy.0 = Debug|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x86.ActiveCfg = Debug|x86
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x86.Build.0 = Debug|x86
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Debug|x86.Deploy.0 = Debug|x86
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|ARM.ActiveCfg = Release|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|ARM.Build.0 = Release|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|ARM.Deploy.0 = Release|ARM
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x64.ActiveCfg = Release|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x64.Build.0 = Release|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x64.Deploy.0 = Release|x64
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x86.ActiveCfg = Release|x86
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x86.Build.0 = Release|x86
+		{B5ECDE2D-A0DA-45A4-A1DA-292167ADE2BF}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
