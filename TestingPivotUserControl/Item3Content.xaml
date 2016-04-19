@@ -9,7 +9,11 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid>
-        <TextBlock>pivot item 3 content</TextBlock>
-    </Grid>
+
+    <StackPanel Margin="20">
+        <Rectangle Fill="Red" Width="50" Height="50" Margin="5" />
+        <Rectangle Fill="Blue" Width="50" Height="50" Margin="5" />
+        <Rectangle Fill="Green" Width="50" Height="50" Margin="5" />
+        <Rectangle Fill="Purple" Width="50" Height="50" Margin="5" />
+    </StackPanel>
 </UserControl>

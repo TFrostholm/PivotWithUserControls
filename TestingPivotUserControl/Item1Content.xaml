@@ -10,6 +10,9 @@
     d:DesignWidth="400">
 
     <Grid>
-        <TextBlock>pivot item 1 content</TextBlock>
+        <RelativePanel>
+            <TextBlock x:Name="TextBlock1" TextWrapping="Wrap" FontSize="12"> Nullam porta tincidunt lacinia. Aenean gravida a nulla nec varius. Curabitur nec ligula massa. Maecenas ac quam egestas, interdum diam id, auctor risus. Proin sit amet aliquam velit. Nunc tempor lorem id enim suscipit eleifend. Aenean blandit odio neque, at congue erat rutrum in. Sed nec finibus libero. Ut tincidunt, mi tempus facilisis ultricies, mauris velit fringilla ligula, sed vehicula orci ex in libero. Nunc pharetra massa sed elit mattis luctus. Maecenas eget arcu rutrum, faucibus arcu nec, blandit orci. In scelerisque rhoncus dignissim.</TextBlock>
+            <TextBlock x:Name="TextBlock2" RelativePanel.Below="TextBlock1" Padding="0,50" TextWrapping="Wrap" FontSize="15">Aliquam a elementum nulla. Nulla pretium sagittis aliquam. Sed quis consectetur lacus, quis cursus odio. Phasellus ut elit nec erat ornare scelerisque. In hac habitasse platea dictumst. Integer ipsum ligula, dictum ut feugiat lobortis, semper nec ligula. Nunc scelerisque mi non convallis rutrum.</TextBlock>
+        </RelativePanel>    
     </Grid>
 </UserControl>

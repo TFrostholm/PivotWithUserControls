@@ -9,7 +9,19 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid>
-        <TextBlock>pivot item 2 content</TextBlock>
-    </Grid>
+    <RelativePanel>
+        <Rectangle x:Name="RedRect" Fill="Red" MinHeight="100" MinWidth="100"/>
+        <Rectangle x:Name="BlueRect" Fill="Blue" MinHeight="100" MinWidth="100" 
+               RelativePanel.RightOf="RedRect" />
+        <!-- Width is not set on the green and yellow rectangles.
+         It's determined by the RelativePanel properties. -->
+        <Rectangle x:Name="GreenRect" Fill="Green" MinHeight="100" Margin="0,5,0,0" 
+               RelativePanel.Below="RedRect" 
+               RelativePanel.AlignLeftWith="RedRect" 
+               RelativePanel.AlignRightWith="BlueRect"/>
+        <Rectangle Fill="Yellow" MinHeight="100" 
+               RelativePanel.Below="GreenRect" 
+               RelativePanel.AlignLeftWith="BlueRect" 
+               RelativePanel.AlignRightWithPanel="True"/>
+    </RelativePanel>
 </UserControl>
