@@ -335,7 +335,7 @@
     </Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Pivot Style="{StaticResource TabsStylePivotStyle}" Title="MyPivot" PivotItemLoading="Pivot_OnPivotItemLoading">
+        <Pivot Style="{StaticResource TabsStylePivotStyle}" PivotItemLoading="Pivot_OnPivotItemLoading">
             <PivotItem>
                 <PivotItem.Header>
                     <local:TabHeader Label="item 1" Glyph="&#xE719;" />
